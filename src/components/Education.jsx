@@ -7,7 +7,7 @@ const Education = () => {
     {
       id: 1,
       type: 'Higher Secondary',
-      title: '+2 Humanities',
+      title: '+2',
       institution: 'State Board of Education, Kerala',
       year: 'Completed',
       icon: <BookOpen size={24} className="text-circuit-blue" />
