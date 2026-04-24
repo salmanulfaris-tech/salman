@@ -40,7 +40,16 @@ const Experience = () => {
                 <span className="font-mono text-sm tracking-widest uppercase">Current Deployment (1 Year)</span>
               </div>
               <h3 className="text-3xl font-black mb-1">Technician</h3>
-              <h4 className="text-xl text-gray-400 mb-4 font-mono">Hypertech Digital</h4>
+              <h4 className="text-xl text-gray-400 mb-4 font-mono">
+                <a 
+                  href="https://maps.app.goo.gl/PfCxTFDqtKCgPMoL6" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="hover:text-circuit-blue hover:underline transition-colors"
+                >
+                  Hypertech Digital
+                </a>
+              </h4>
               
               <div className="flex items-center gap-2 mb-6 text-gray-500 md:justify-end">
                 <MapPin size={16} />
